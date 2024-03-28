@@ -28,7 +28,6 @@ const Index = () => {
           Welcome to My Website
         </Heading>
         <Text fontSize="xl">Discover amazing content and features!</Text>
-        <Image src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3ZWJzaXRlJTIwaGVybyUyMGltYWdlfGVufDB8fHx8MTcxMTY2NzkzOHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Hero Image" mt={8} mx="auto" maxW="500px" />
       </Box>
 
       {/* Footer */}
