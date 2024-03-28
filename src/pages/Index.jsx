@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex, Spacer, Heading, Menu, MenuButton, MenuList, MenuItem, IconButton, Image, Text } from "@chakra-ui/react";
-import { FaBars, FaHome, FaInfoCircle, FaEnvelope } from "react-icons/fa";
+import { FaBars, FaHome, FaVideo, FaPlay } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -16,8 +16,8 @@ const Index = () => {
           <MenuButton as={IconButton} icon={<FaBars />} variant="outline" colorScheme="blue" />
           <MenuList>
             <MenuItem icon={<FaHome />}>Home</MenuItem>
-            <MenuItem icon={<FaInfoCircle />}>About</MenuItem>
-            <MenuItem icon={<FaEnvelope />}>Contact</MenuItem>
+            <MenuItem icon={<FaVideo />}>Videos</MenuItem>
+            <MenuItem icon={<FaPlay />}>Live Streams</MenuItem>
           </MenuList>
         </Menu>
       </Flex>
